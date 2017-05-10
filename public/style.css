@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #cccccc;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+#drawing {
+	display: block;
+	cursor: url(dot.gif), url(dot.cur), crosshair;
+	background: #1D1F21;
+}
+
+#scrollable-canvas {
+	display: block;
+	border: 1px solid #999999;
+	border-width: 0 1px 0 0;
+	float: left;
+	width: 80%;
+	height: 100%;
+	overflow: scroll;
+	background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar, ::-webkit-scrollbar:horizontal {
+	width: 5px;
+	height: 5px;
+	background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-corner {
+	background: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #999999;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 13px Helvetica, Arial;
+	background: #1D1F21;
+}
+
+form {
+	position: fixed;
+	bottom: 0;
+	width: 20%;
+	margin-left: 80%;
+	border: 1px solid #999999;
+	border-width: 1px 0 0 0;
+	background: #1D1F21;
+}
+
+form input {
+	padding: 10px;
+	width: 100%;
+	margin: 0;
+	outline: none;
+}
+
+#messages {
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	margin-left: 80%;
+}
+
+#m {
+	outline: none;
+	border: none;
+	height: 2em!important;
+	width: 95%;
+	margin-left: 5px;
+	resize: none;
+	overflow: hidden;
+	background: #1D1F21;
+}
+
+#messages li {
+	padding: 5px 10px;
+	list-style-type: none;
+	color: 
+}
+
+#messages li:nth-child(odd) {
+	background: #333537;
+}
+
+input {
+	border: 1px solid #999999;
+	border-width: 1px 0 0 1px;
+	background: #1D1F21;
+}
