@@ -1,4 +1,4 @@
-##Grand Wizard Club
+## Grand Wizard Club
 To run a local copy:
 ```
 npm install
