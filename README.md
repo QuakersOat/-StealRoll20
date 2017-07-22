@@ -1,4 +1,4 @@
-# #StealRoll20
+##Grand Wizard Club
 To run a local copy:
 ```
 npm install
